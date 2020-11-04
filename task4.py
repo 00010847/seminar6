@@ -1,10 +1,10 @@
 number = int(input("Enter number:  "))
 
 
-def calculate(number):
-    if number < 0:
-        return -number
-    elif number > 0:
+def calculate(x, y):
+    if x < y:
+        return 1
+    elif x > y:
         return number
     else:
         return 0
